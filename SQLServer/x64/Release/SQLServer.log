@@ -1,0 +1,38 @@
+﻿  btree.cpp
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\btree.cpp(110,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  database.cpp
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\database.cpp(56,87): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\database.cpp(117,32): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\database.cpp(125,34): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\database.cpp(129,32): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\database.cpp(162,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\database.cpp(172,27): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\database.cpp(176,21): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\database.cpp(219,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\database.cpp(229,30): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\database.cpp(233,21): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+  file_controller.cpp
+  main.cpp
+  node.cpp
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\node.cpp(257,11): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(4791,23): error C2440: '=': cannot convert from 'Node' to 'char'
+  (compiling source file 'node.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(4791,23):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(4791,23):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\a1b2c\source\repos\SQLServer\SQLServer\node.cpp(59,7):
+  	see reference to function template instantiation '_OutIt *std::copy_n<Node*,int,char*>(_InIt,_Diff,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _InIt=Node *,
+              _Diff=int
+          ]
+  
+  sql_graph.cpp
+  sql.cpp
+  state_graph.cpp
+  str.cpp
+C:\Users\a1b2c\source\repos\SQLServer\SQLServer\str.cpp(155,23): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  vec.cpp
